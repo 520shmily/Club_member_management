@@ -1,0 +1,20 @@
+.myActivity {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .scrollview {
+    height: 100vh;
+
+    .placeholder {
+      height: 50px;
+      padding-top: 20px;
+      background: #f5f5f5;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      color: #498cf0;
+      border-bottom: 90px solid #fff;
+    }
+  }
+}

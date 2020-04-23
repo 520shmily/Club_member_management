@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .Avatar {
+    width: 180px;
+    height: 180px;
+    margin-top: 80px;
+  }
+
+  .name {
+    margin-bottom: 80px;
+  }
+
+  Text {
+    text-align: center;
+    display: none;
+  }
+
+  .btn {
+    margin-top: 16px;
+  }
+
+  .isShow {
+    color: #f00;
+    display: block;
+  }
+
+  .tips {
+    display: block;
+    font-size: 26px;
+    margin: 18px 0;
+    color: #c5c5c5;
+  }
+}

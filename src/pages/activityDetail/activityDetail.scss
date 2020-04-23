@@ -1,0 +1,82 @@
+.avtivityTitle {
+  text-align: center;
+}
+
+.activityP {
+  max-width: 300px;
+}
+
+.modalContent {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.messageContent {
+  width: 92%;
+  margin: 30px 4%;
+
+  .tipsMessage {
+    display: block;
+    font-size: 26px;
+    margin: 18px 0;
+    color: #c5c5c5;
+  }
+
+  .allActivityThinks {
+    display: none;
+  }
+
+  .noActivitythinks {
+    font-size: 28px;
+    color: #504e4e;
+  }
+
+  .thinksItems {
+    display: inline-block;
+    font-size: 26px;
+    margin: 18px 0;
+    color: #2a5a6e;
+  }
+
+  .writeThinks {
+    float: right;
+    color: #11aff3;
+    padding: 0 20px;
+  }
+
+  .fengexian {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #faf1f1;
+  }
+
+  .AtTextarea {
+    border: none !important;
+  }
+
+  .writeBox {
+    width: 92%;
+    margin: 0 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #504e4e;
+
+    #thinksBtn{
+      width: 120px;
+    }
+  }
+
+  .thinksBtndisable {
+    background-color: #c9c4c4;
+    color: rgb(131, 128, 128);
+    border: none;
+  }
+
+  .thinksBtnable {
+    background-color: #5aacf8;
+    color: #fff;
+    border: none;
+  }
+}

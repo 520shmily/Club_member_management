@@ -1,0 +1,36 @@
+.activityListCom {
+  display: flex;
+  align-items: center;
+  margin: 0 4% 15px 4%;
+  padding: 10px;
+  background: #fdfdfd;
+
+  .activityImg {
+    height: 200px;
+    border: 1px solid #efefef;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 0 #efefef;
+  }
+
+  .activityContent {
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+    margin-left: 5%;
+    
+    .activityName {
+      margin-bottom: 5px;
+    }
+
+    .activitymessage{
+      font-size: 26px;
+      color: #555;
+    }
+
+    .isJion {
+      margin-top: 8px;
+      font-size: 22px;
+      color: rgb(238, 133, 150);
+    }
+  }
+}

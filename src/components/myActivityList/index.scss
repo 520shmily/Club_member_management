@@ -1,0 +1,48 @@
+.activityTitleItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 5%;
+  border-bottom: 1px solid #dee7f0;
+
+  .activityTitle {
+    font-weight: 700;
+    color: #5a5959;
+  }
+
+  .activityTips {
+    font-size: 24px;
+    font-weight: 300;
+    color: #498cf0;
+  }
+}
+
+.myActivityContent {
+  width: 88%;
+  padding: 20px 6%;
+  border-bottom: 18px solid #f5f5f5;
+
+  .textItem {
+    font-weight: 400;
+    font-size: 28px;
+    color: #504e4e;
+  }
+
+  .spanItem {
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 26px;
+    color: #706d6d;
+  }
+
+  .TextItemThinks {
+    font-size: 26px;
+    font-weight: 200;
+    color: #696363;
+  }
+
+  .thinksfenge {
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,46 @@
+.evaluate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  .evaluateItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .evaluateTitle {
+    margin: 40px 0;
+    font-size: 80px;
+    font-weight: 600;
+    color: #055e72;
+  }
+
+  .pass {
+    color: #4bf1ba
+  }
+
+  .fine {
+    color: #f0503b;
+  }
+
+  .excellent {
+    color: #f33131;
+  }
+  
+  .evaluateTips {
+    font-size: 28px;
+    color: rgb(250, 169, 121);
+  }
+
+  .isShowEvaluate {
+    display: none;
+  }
+
+  .noneMessage {
+    color: rgb(80, 77, 75);
+  }
+}
