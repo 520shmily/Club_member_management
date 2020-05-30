@@ -78,10 +78,10 @@ export default class Activitydetail extends Component {
 
               isSignInChecked: requestData.data[0].signIn === 'true',
               signIn: requestData.data[0].signIn === 'true' ? '已签到' : '签到',
-              isSignInDisabled: requestData.data[0].signIn === 'true',
+              // isSignInDisabled: requestData.data[0].signIn === 'true',
 
               isSignOffChecked: requestData.data[0].signOff === 'true',
-              isSignOffDisabled: requestData.data[0].signOff === 'true',
+              // isSignOffDisabled: requestData.data[0].signOff === 'true',
               signOff: requestData.data[0].signOff === 'true' ? '已签退' : '签退',
             })
           } 
@@ -189,6 +189,7 @@ export default class Activitydetail extends Component {
         this.setState({
           isSignInDisabled: false
         })
+        console.log('00')
       } else {
         this.setState({
           isSignInDisabled: true

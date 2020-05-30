@@ -359,7 +359,7 @@ export default class Activity extends Component {
 
                 >
                   <View>{ActivitingList}</View>
-                  <View className="placeholder">社团还没有历史活动哦～</View>
+                  <View className="placeholder">社团还没有发布更多活动哦～</View>
                 </ScrollView>
               </AtTabsPane>
               <AtTabsPane current={current} index={2}>
@@ -371,7 +371,7 @@ export default class Activity extends Component {
 
                 >
                   <View>{ActivitiedList}</View>
-                  <View className="placeholder">社团还没有发布更多活动哦～</View>
+                  <View className="placeholder">社团还没有历史活动哦～</View>
                 </ScrollView>
               </AtTabsPane>
             </AtTabs>
